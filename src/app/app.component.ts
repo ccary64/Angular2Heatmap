@@ -1,10 +1,15 @@
-import { Component } from '@angular/core';
+import { Component, Inject } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  template: `
+  <div>
+    <h1>{{ title }}</h1>
+    <app-google-map></app-google-map>
+  </div>
+  `,
+  styleUrls: ['app.component.css'],
 })
 export class AppComponent {
-  title = 'app works!';
+  title = 'Google Heat Maps';
 }

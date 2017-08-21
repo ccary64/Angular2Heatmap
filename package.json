@@ -21,8 +21,11 @@
     "@angular/platform-browser-dynamic": "^2.3.1",
     "@angular/router": "^3.3.1",
     "core-js": "^2.4.1",
-    "rxjs": "^5.0.1",
+    "express": "^4.15.4",
+    "fetch": "^1.1.0",
+    "mongoose": "^4.11.7",
     "ts-helpers": "^1.1.1",
+    "whatwg-fetch": "^2.0.3",
     "zone.js": "^0.7.2"
   },
   "devDependencies": {
