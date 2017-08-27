@@ -1,11 +1,13 @@
-import { Component, Inject } from '@angular/core';
+import { Component, Inject, Input } from '@angular/core';
 
 @Component({
   selector: 'app-root',
   template: `
   <div>
     <h1>{{ title }}</h1>
-    <app-google-map></app-google-map>
+    <div>
+      <app-google-map></app-google-map>
+    </div>
   </div>
   `,
   styleUrls: ['app.component.css'],
